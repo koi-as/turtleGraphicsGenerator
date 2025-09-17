@@ -31,8 +31,12 @@ Label(win, text='Draw Like A Turty!').place(x=150, y=0)
 Label(win, text=expl, wraplength=window_width()).place(x=0, y=50)
 Button(win, text='DRAW', command=draw, bg='light green').place(x=0, y=100)
 Button(win, text='ADD BOX', command=newBox, bg='light blue').place(x=0, y=150)
-Button(win, text='LEAVE', command=win.destroy, bg='red').place(x=0, y=200)
-# Entry(win, textvariable=command0, relief=GROOFY)
+Button(win, text='LEAVE', command=win.destroy, bg='lemonchiffon').place(x=0, y=200)
+# I found a list of named colors and figured out how to use hex codes in python, so my possibilities have expanded!
+# MWAHAHAHAHAHAHAHAHA
+Entry(win, textvariable=command0, relief=RIDGE).place(anchor=S)
+# available relief styles are flat, groove, raised, ridge, solid, and sunken
+# no quotations needed, causes error (I intentionally caused one to find all types)
 
 # turt.mainloop()
 win.mainloop()
