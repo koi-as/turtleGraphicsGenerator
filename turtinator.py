@@ -1,0 +1,48 @@
+# import tkinter as tk
+# from tkinter import *
+import turtle as turt
+from turtle import *
+
+color('red')
+turt.forward(100)
+turt.left(120)
+color('orange')
+turt.forward(100)
+turt.left(120)
+color('yellow')
+turt.forward(200)
+turt.left(120)
+color('light green')
+turt.forward(100)
+turt.left(120)
+color('green')
+turt.forward(200)
+turt.left(120)
+turt.forward(100)
+turt.left(120)
+color('light blue')
+turt.forward(200)
+turt.right(120)
+color('blue')
+turt.forward(100)
+turt.right(120)
+color('purple')
+turt.forward(200)
+turt.right(120)
+color('pink')
+turt.forward(100)
+turt.right(120)
+color('red')
+turt.forward(200)
+turt.right(120)
+color('orange')
+turt.forward(100)
+turt.right(120)
+color('yellow')
+turt.forward(100)
+
+fillcolor('light blue')
+
+end_fill()
+
+turt.mainloop()
